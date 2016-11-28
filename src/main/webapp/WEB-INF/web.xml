@@ -39,7 +39,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-
     <!-- 文字エンコーディング -->
 	<filter>
 	<filter-name>CharacterEncoding</filter-name>
@@ -57,6 +56,5 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	    <filter-name>CharacterEncoding</filter-name>
 	    <url-pattern>/*</url-pattern>
 	</filter-mapping>
-
 
 </web-app>

@@ -1,8 +1,10 @@
 package jp.co.kenshu.form;
 
 public class TestForm {
-    private int id;
+
+	private int id;
     private String name;
+
 	public int getId() {
 		return id;
 	}
@@ -15,4 +17,5 @@ public class TestForm {
 	public void setName(String name) {
 		this.name = name;
 	}
+
 }

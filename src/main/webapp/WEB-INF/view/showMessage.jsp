@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<h2>${message}</h2>
-        <form:form modelAttribute="testForm">
+		<form:form modelAttribute="testForm">
             <form:input path="id" />
             <form:input path="name" />
             <input type="submit">
