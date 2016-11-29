@@ -40,6 +40,9 @@
 		<!-- CommonsDbcp -->
 		<CommonsDbcp.version>2.1</CommonsDbcp.version>
 
+
+
+
 	</properties>
 
 	<dependencies>
@@ -151,6 +154,7 @@
 		    <artifactId>commons-dbcp2</artifactId>
 		    <version>${CommonsDbcp.version}</version>
 		</dependency>
+
 		<!-- Spring JDBC -->
 		<dependency>
 		    <groupId>org.springframework</groupId>
@@ -162,6 +166,19 @@
 		    <artifactId>javax.inject</artifactId>
 		    <version>1</version>
 		</dependency>
+
+		<!-- JSON -->
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-core</artifactId>
+		    <version>2.4.1</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-databind</artifactId>
+		    <version>2.4.1.1</version>
+		</dependency>
+
 
 	</dependencies>
 </project>

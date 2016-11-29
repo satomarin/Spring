@@ -9,7 +9,7 @@
     <body>
            <h1>${message}</h1>
            <c:forEach items="${tests}" var="test">
-            <p><c:out value="${test.name}"></c:out></p>
-        </c:forEach>
+            	<p><c:out value="${test.id}"></c:out> : <c:out value="${test.name}"></c:out><a href="${pageContext.request.contextPath}/test/update/input/${test.id}/">編集</a></p>
+        	</c:forEach>
     </body>
 </html>

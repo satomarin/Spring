@@ -20,4 +20,25 @@
 		from test
 		where id = #{id}
 	</select>
+
+	<insert id="insertTest" parameterType="String">
+		insert into test(name) values(#{name})
+	</insert>
+
+	<delete id="deleteTest" parameterType="int">
+		delete from test where id = #{id}
+	</delete>
+
+
+	<update id="updateTest">
+		update test set name = #{name} where id = #{id}
+	</update>
+
+
+	<!-- トランザクション失敗用insert -->
+	<insert id="insertFailTest" parameterType="String">
+	    insert into testtest(name)
+	    values (#{name})
+	</insert>
+
 </mapper>

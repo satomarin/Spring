@@ -1,9 +1,12 @@
 package jp.co.kenshu.dto.test;
 
+
+
 public class TestDto {
 
 	private Integer id;
 	private String name;
+
 	public Integer getId() {
 		return id;
 	}

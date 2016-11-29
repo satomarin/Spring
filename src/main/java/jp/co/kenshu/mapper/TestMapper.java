@@ -12,4 +12,13 @@ public interface TestMapper {
 	List<Test> getTestAll();
 
 	Test getTestByDto(TestDto dto);
+
+	int insertTest(String name);
+
+	int deleteTest(int id);
+
+	int updateTest(TestDto dto);
+
+	// トランザクションテスト用の失敗メソッド
+	int insertFailTest(Object object);
 }
